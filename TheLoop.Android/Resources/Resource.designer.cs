@@ -9,9 +9,9 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Android.Runtime.ResourceDesignerAttribute("TheLoop.Droid.Resource", IsApplication=true)]
+[assembly: global::Android.Runtime.ResourceDesignerAttribute("TheLoop.Mobile.Droid.Resource", IsApplication=true)]
 
-namespace TheLoop.Droid
+namespace TheLoop.Mobile.Droid
 {
 	
 	

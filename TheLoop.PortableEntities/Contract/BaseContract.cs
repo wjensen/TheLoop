@@ -1,7 +1,7 @@
 
 
 
-namespace TheLoop.PortableLibrary.Contract {
+namespace TheLoop.PortableEntities.Contract {
 	/// <summary>
 	///Contract base class. Provides the ID property.
 	/// </summary>

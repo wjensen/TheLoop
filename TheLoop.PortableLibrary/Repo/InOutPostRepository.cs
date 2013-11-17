@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 using TheLoop.DL.SQLiteBase;
-using TheLoop.PortableLibrary.Contract;
+using TheLoop.PortableEntities.Contract;
 using TheLoop.PortableLibrary.Data;
 
 namespace TheLoop.PortableLibrary.Repo {

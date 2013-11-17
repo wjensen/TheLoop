@@ -1,8 +1,7 @@
 using System.Collections.Generic;
 using System.Linq;
-using TheLoop.BL;
 using TheLoop.DL.SQLiteBase;
-using TheLoop.PortableLibrary.Contract;
+using TheLoop.PortableEntities.Contract;
 
 namespace TheLoop.PortableLibrary.Data
 {

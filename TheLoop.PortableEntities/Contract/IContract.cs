@@ -1,4 +1,4 @@
-namespace TheLoop.PortableLibrary.Contract {
+namespace TheLoop.PortableEntities.Contract {
 	public interface IContract {
 		int Id { get; set; }
 	}
