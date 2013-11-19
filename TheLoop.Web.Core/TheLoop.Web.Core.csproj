@@ -31,6 +31,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -39,8 +40,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
-    <Compile Include="Data\InOutPostDatabase.cs" />
+    <Compile Include="DataAccess\BaseDataAccess.cs" />
+    <Compile Include="DataAccess\DataOperationResult.cs" />
+    <Compile Include="DataAccess\DBManager.cs" />
+    <Compile Include="DataAccess\DBManagerFactory.cs" />
+    <Compile Include="DataAccess\DBManagerParam.cs" />
+    <Compile Include="DataAccess\IDBManager.cs" />
+    <Compile Include="Data\BaseDatabase.cs" />
+    <Compile Include="Data\TheLoopDatabase.cs" />
+    <Compile Include="Framework\OperationResult.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repo\InOutPostRepository.cs" />
   </ItemGroup>

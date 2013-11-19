@@ -8,7 +8,8 @@ namespace TheLoop.PortableEntities.Contract
 	public class InOutPost : BaseContract
 	{
 	    public DateTime InDateTime { get; set; }
-		public DateTime OuDateTime { get; set; }
+		public DateTime OutDateTime { get; set; }
+        public String EmployeeName { get; set; }
         public String Details { get; set; }
 		public bool SendMail { get; set; }
 	}

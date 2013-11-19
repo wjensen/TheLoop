@@ -6,7 +6,7 @@ namespace TheLoop.Web
     {
         public HomeModule()
         {
-            Get["/"] = _ =>
+            Get["/Dashboard"] = _ =>
             {
                 var model = new { title = "The Loop" };
                 return View["home", model];
